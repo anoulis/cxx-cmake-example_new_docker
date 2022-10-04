@@ -50,7 +50,7 @@ void test_lto()
 
     auto duration = std::chrono::duration_cast<std::chrono::nanoseconds>(t2 - t1).count();
 
-    std::cout << "Calling rust function"
+    std::cout << "Calling rust PAOK function"
               << ", time elapsed: " << duration << " ns." << std::endl;
 
     t1 = std::chrono::high_resolution_clock::now();

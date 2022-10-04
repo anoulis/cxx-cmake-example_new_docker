@@ -1,3 +1,23 @@
+# Instructions for Build and Run
+
+### Build and Run Docker
+```bash
+./build_docker.sh
+./run_docker.sh
+```
+### Build and Run Code
+Under the /home/paok/cxx-cmake-example/build directory
+```bash
+cmake ..
+make -j
+./main
+```
+
+This is a fork from the original repo.
+
+It is good example how to consume rust part in cpp code
+
+
 # CXX with CMake build system
 ![CXX CMake CI](https://github.com/XiangpengHao/cxx-cmake-example/workflows/CXX%20CMake%20CI/badge.svg)
 
